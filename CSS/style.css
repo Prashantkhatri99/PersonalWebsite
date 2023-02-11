@@ -11,7 +11,7 @@ body{
 }
 .nav-wrapper{
     background: #0c115d;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding: 10px 90px;
     display: flex;
 }
@@ -424,85 +424,91 @@ section.six {
         margin-left: 22px;
     }
     
-    .contain .card {}
+        .contain .card {}
 
-.contain {
-    padding: 0;
-    max-width: 100%;
-}
+    .contain {
+        padding: 0;
+        max-width: 100%;
+    }
 
-.contain .card {
-    width: 100%;
-    padding: 40px 0;
-    margin: 0;
-    margin-bottom: 40px;
-}
+    .contain .card {
+        width: 100%;
+        padding: 40px 0;
+        margin: 0;
+        margin-bottom: 40px;
+    }
 
-section.three .into-wrapper .intro-content {
-    margin: 0;
-}
+    section.three .into-wrapper .intro-content {
+        margin: 0;
+    }
 
-.form .name {
-    flex: 0 0 70%;
-    width: 70%;
-    padding: 0;
-    margin-bottom: 30px;
-}
+    .form .name {
+        flex: 0 0 70%;
+        width: 70%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
 
-.email.form-list {
-    flex: 0 0 70%;
-    width: 70%;
-    padding: 0;
-    margin-bottom: 30px;
-}
+    .email.form-list {
+        flex: 0 0 70%;
+        width: 70%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
 
-.form .text {
-    flex: 0 0 70%;
-    width: 70%;
-    padding: 0;
-    margin-top: 0;
-}
+    .form .text {
+        flex: 0 0 70%;
+        width: 70%;
+        padding: 0;
+        margin-top: 0;
+    }
 
-.form {
-    margin: 0;
-    justify-content: center;
-    /* display: inherit; */
-}
+    .form {
+        margin: 0;
+        justify-content: center;
+        /* display: inherit; */
+    }
 
-header {
-    width: 100%;
-}
+    header {
+        width: 100%;
+    }
 
-.edu-list {
-    width: 100%;
-}
+    .edu-list {
+        width: 100%;
+    }
 
-.edu-wrapper .title {
-    margin: 0; 
-    
-}
+    .edu-wrapper .title {
+        margin: 0; 
+        
+    }
 
-header ul li a {
-    font-size: 16px;
-}
+    header ul li a {
+        font-size: 16px;
+    }
+    .contain .card {
+        width: 100%;
+    }
 }
    
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 570px) {
     header{
-    width: 212%;
+    width: 100%;
     }
     .nav-lists {
-        margin-left: -36%;
+        /* margin-left: -36%; */
+        width: 100%;
+        /* margin: 0; */
     }
     .banner-section {
-        width: 197%;
+        width: 100%;
+        text-align: center;
     }
     .contain{
     margin-top: 15%;
-    margin-left: 284px;
+    /* margin-left: 284px; */
     }
     .container {
-        margin-left: 79px;
+        /* margin-left: 79px; */
     }
     section.four h2 {
         font-size: 25px;
@@ -514,5 +520,17 @@ header ul li a {
     section.three .into-wrapper {
         display: flex;
         flex-direction: column;
+    }
+    li.nav-list {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    
+    header ul li a {
+        font-size: 14px;
+    }
+    
+    .nav-wrapper {
+        padding: 10px 0;
     }
 }
